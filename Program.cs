@@ -99,14 +99,14 @@ namespace lab4
             zad4v2(list);
             zad4v3(list);
 
-            Console.WriteLine("Zad4 kropka 4");
+            Console.WriteLine("Zad4 podpunkt 4");
             Console.WriteLine("Wybierz kraj:(US,CN,IN):");
             string kraj = Console.ReadLine();
             Console.WriteLine("Wybierz date:(1960-2019):");
             string data = Console.ReadLine();
             zad4v4(list, kraj, data);
 
-            Console.WriteLine("zad 4 kropka 5 : Roznica pomiedzy wybranymi krajami i datami :");
+            Console.WriteLine("zad 4 kropka 5 : Roznica miedzy wybranymi krajami i datami :");
             Console.WriteLine("Wybierz kraj 1:(US,CN,IN):");
             string kraj1 = Console.ReadLine();
             Console.WriteLine("Wybierz date 1:(1960-2019):");
@@ -118,7 +118,7 @@ namespace lab4
 
             zad4v5(list, kraj1, data1, kraj2, data2);
 
-            Console.WriteLine("zad 4 kropka 6 : Procentowy wzrost populacji względem roku poprzedniego do wskazanego :");
+            Console.WriteLine("zad 4 podpunkt 6 : Procentowy wzrost populacji względem roku poprzedniego do wskazanego :");
             Console.WriteLine("Wybierz kraj 1:(US,CN,IN):");
             string kraj3 = Console.ReadLine();
             Console.WriteLine("Wybierz date 1:(1960-2019):");
